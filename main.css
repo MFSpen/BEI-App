@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.container {
+  width: 375px;
+  height: 812px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.rect {
+  width: 687px;
+  height: 604px;
+  background: rgba(86,130,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 610px;
+  right: -225px;
+  transform: rotate(-45deg) scale(1.25);
+  overflow: hidden;
+}
+.header {
+  width: 237px;
+  color: rgba(86,130,217,1);
+  position: absolute;
+  top: 79px;
+  left: 80px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+.body-text {
+  width: 309px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 137px;
+  left: 50px;
+  font-family: SF Pro Display;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+img {
+  width: 492px;
+  height: 481px;
+  background: image("mailbox-01.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 316px;
+  right: -50px;
+  overflow: hidden;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  background: rgb(12, 32, 73);
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  opacity: 1;
+  overflow: hidden;
+  border-radius: 10px;
+  
+}
+.button-text {
+  width: 200px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-family: SF Pro Display;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  top: 15px;
+}
